@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Index</title>
 </head> <h2>Welcome to my Page</h2>
-<body style="background-color: blanchedalmond;">
+<body style="background-color: bisque;"
 <nav>
     <a href="index.html" target="_blank">Home</a>
     <a href="Others/About.html" target="_blank">About</a>
@@ -15,7 +15,41 @@
 <form action="/submit-form" method="post" style="color: brown;"><b>Fill Form</b><br>
 <label for="fname">First Name</label><br>
 <input type="text" id="fname" name="fname"><br>
+<label for="lname"> Last Name:</label><br>
+<input type="text" id="lname" name="lname"><br>
+<label for="email">Email:</label><br>
+<input type="email" id="email" name="email" placeholder="Enter Email"><br>
+<label for="Password">Password:</label><br>
+<input type="Password" id="Password" name="Password" required placeholder="******************"><br>
+<label><B>Gender:</B></label><br>
+<input type="radio" id="male" name="Gender" value="male">
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="Gender" value="female">
+<label for="female">Female</label><br>
+<input type="radio" id="not-say" name="Gender" value="rather not say">
+<label for="not-say">Rather not say</label><br><br>
+<label><br>Favorite Foods (Multiple Selections):/br></label><br>
+<input type="checkbox" id="beans" name="Foods" value="beans">
+<label for="beans">Beans</label><br>
+<input type="checkbox" id="rice" name="Foods" value="rice">
+<label for="rice">Rice</label><br>
+<input type="checkbox" id="Spaghetti" name="Foods" value="Spaghetti">
+<label for="Spaghetti">Spaghetti</label><br>
+<input type="checkbox" id="Soup" name="Foods" value="Soup">
+<label for="Soup">Soup</label><br>
+<input type="checkbox" id="Pizza" name="Foods" value="Pizza">
+<label for="Pizza">Pizza</label><br><br>
+<label for="Certificate"><B>Certificate</B></label><br>
+<select id="Certificate" name="Certificate">
+    <option value="fslc">FSLC</option>
+    <option value="Olevel">Olevel</option>
+    <option value="bsc">BSC</option>
+</select><br><br>
+<label for="Phone"><B>Phone Number:</B></label><br>
+<input type="Tel" id="Phone" name="Phone"><br><br>
+<label for="About"><B>Tell us about yourself:</B></label><br>
+<textarea id="About" name="About" rows="5" cols="30"></textarea><br><br>
+<input type="Submit" value="Submit">
 </form>
 </body>
-
 </html>
